@@ -14,14 +14,12 @@ if(isset($_POST['con_name']) && isset($_POST['con_email']) && isset($_POST['con_
 
     $message .= $con_message.'<br/>';
 
+    $header="MIME-Version: 1.0\r\n";
+  	$header.='From:"LucienBrd"<luciano@lucien-brd.com>'."\n";
+  	$header.='Content-Type:text/html; charset="uft-8"'."\n";
+  	$header.='Content-Transfer-Encoding: 8bit';
 
-    $headers = 'From: '.$con_name.' '.$con_email . "\r\n" ;
-    $headers .='Reply-To: '. $to . "\r\n" ;
-    $headers .='X-Mailer: PHP/' . phpversion();
-    $headers .= "MIME-Version: 1.0\r\n";
-    $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-
-    mail($to,$subject,$message,$headers);
+    mail($to,$subject,$message,$header);
     header('location: ../?mail=true#contact');
   } else {
     header('location: ../?mail=false#contact');

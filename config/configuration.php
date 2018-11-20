@@ -1,9 +1,5 @@
 <?php
 
-// Accès base de données
-const DEV = TRUE;
-
-const LINK = !DEV?'https://diminuo.lucien-brd.com/' : 'https://localhost/';
 
 // Langue du site
 const LANG ='FR-fr';
