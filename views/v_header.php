@@ -7,6 +7,8 @@
 <meta name="keywords" content="lucien, burdet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="icon" type="image/png" href="<?=PATH_IMG?>logo.png" />
+
 <!-- Stylesheets -->
 <link rel="stylesheet" href="<?=PATH_CSS?>bootstrap.css"/>
 <link rel="stylesheet" href="<?=PATH_CSS?>reset.css"/>

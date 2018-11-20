@@ -220,7 +220,7 @@ $('.responsive').on('click', function (e) {
     var mail = $_GET('mail');
 
     if(mail != null){
-      if(mail){
+      if(mail == 'true'){
         button.classList.add("ok");
       }
     }
