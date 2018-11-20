@@ -211,64 +211,106 @@ $('.responsive').on('click', function (e) {
         });
     }
 
+    /* Contact Form*/
+    var email = document.getElementById("con_email");
+    var form = document.querySelector(".contact-form");
+    var name = document.getElementById("con_name");
+    var message = document.getElementById("con_message");
+    var button = document.getElementById("con_submit");
+    var mail = $_GET('mail');
+
+    if(mail != null){
+      if(mail){
+        button.classList.add("ok");
+      }
+    }
+
+    function $_GET(param) {
+    	var vars = {};
+    	window.location.href.replace( location.hash, '' ).replace(
+    		/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+    		function( m, key, value ) { // callback
+    			vars[key] = value !== undefined ? value : '';
+    		}
+    	);
+
+    	if ( param ) {
+    		return vars[param] ? vars[param] : null;
+    	}
+    	return vars;
+    }
+
+    function surligne(champ, erreur)
+    {
+       if(erreur)
+          champ.classList.add("reqError");
+       else
+          champ.classList.remove("reqError");
+    }
+
+    function emailValide(email){
+      var regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+      if(!regex.test(email.value)){
+        surligne(email, true);
+        return false;
+      } else {
+        surligne(email, false);
+        return true;
+      }
+    }
+
+    function nameValide(name)
+    {
+       if(name.value.length < 2 || name.value.length > 25)
+       {
+          surligne(name, true);
+          return false;
+       }
+       else
+       {
+          surligne(name, false);
+          return true;
+       }
+    }
+
+    function messageValide(message)
+    {
+       if(message.value.length < 2)
+       {
+          surligne(message, true);
+          return false;
+       }
+       else
+       {
+          surligne(message, false);
+          return true;
+       }
+    }
+
+    email.addEventListener('input', function (event) {
+        emailValide(email);
+    }, false);
+
+    name.addEventListener('input', function (event) {
+        nameValide(name);
+    }, false);
+
+    message.addEventListener('input', function (event) {
+        messageValide(message);
+    }, false);
+
+    form.addEventListener('submit', function (event) {
+      var emailOk = emailValide(email);
+      var nameOk = nameValide(name);
+      var messageOk = messageValide(message);
+
+      if(!emailOk || !nameOk || !messageOk){
+        button.classList.remove("ok");
+        event.preventDefault();
+      } else{
+        button.classList.add("ok");
+      }
+    }, false);
 
 }); // document ready end
-
-
-
-/* Contact Form JS*/
-(function($){
-   'use strict';
-
-   $(".contact-form").on('submit', function(e){
-        e.preventDefault();
-
-        var uri = $(this).attr('action');
-        $("#con_submit").val('Wait...');
-        var con_name = $("#con_name").val();
-        var con_email = $("#con_email").val();
-        var con_message = $("#con_message").val();
-
-        var required = 0;
-        $(".requie", this).each(function() {
-            if ($(this).val() == '')
-            {
-                $(this).addClass('reqError');
-                required += 1;
-            }
-            else
-            {
-                if ($(this).hasClass('reqError'))
-                {
-                    $(this).removeClass('reqError');
-                    if (required > 0)
-                    {
-                        required -= 1;
-                    }
-                }
-            }
-        });
-        if (required === 0)
-        {
-            $.ajax({
-                type: "POST",
-                url: 'mail.php',
-                data: {con_name: con_name, con_email: con_email, con_message: con_message},
-                success: function(data)
-                {
-                    $(".contact-form input, .contact-form textarea").val('');
-                    $("#con_submit, .sitebtn").val('Done!');
-					$("#con_submit .sitebtn").addClass("ok");
-                }
-            });
-        }
-        else
-        {
-            $("#con_submit, .sitebtn").val('Failed!');
-        }
-   });
-   $(".requie").keyup(function() {
-        $(this).removeClass('reqError');
-    });
-
-})(jQuery);

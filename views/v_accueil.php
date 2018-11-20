@@ -174,7 +174,7 @@
                         <div class="page-title sub">
                             <h5>Contactez moi</h5>
                         </div>
-                        <form class="contact-form top_60" method="POST" action="mail.php">
+                        <form class="contact-form top_60" method="POST" action="../">
                             <div class="row">
                                 <!--Name-->
                                 <div class="col-md-6">
@@ -187,7 +187,6 @@
                                 <div class="col-md-12">
                                     <!--Message-->
                                     <textarea name="con_message" id="con_message" class="requie" placeholder="Que puis je faire pour vous?" rows="8"></textarea>
-                                    <div class="g-recaptcha" data-sitekey="6Leo1x4UAAAAABLPzWDRVMA4_RLzDOtP8NSaSP3z"></div>
                                     <button id="con_submit" class="sitebtn top_30 pull-right" type="submit">Envoyer</button>
                                 </div>
                             </div>
