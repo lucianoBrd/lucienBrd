@@ -115,7 +115,7 @@
                       <div class="row">
                           <a href="?page=beeleat" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
                               <div class="blog-image">
-                                  <img src="<?=PATH_IMG?>beeleat.jpg">
+                                  <img src="<?=PATH_IMG?>bl.jpg">
                               </div>
                               <h2 class="blog-title">BeelEAT </h2>
                               <p>Site pour la restauration.  </p>
