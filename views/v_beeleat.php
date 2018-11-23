@@ -37,23 +37,23 @@
                 <div class="post-lightbox row">
                     <!-- image 1 -->
                     <a href="<?=PATH_IMG?>bl.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
-                        <img src="<?=PATH_IMG?>BeelEAT.jpg" alt="beeleat">
+                        <img src="<?=PATH_IMG?>bl.jpg" alt="beeleat">
                     </a>
                      <!-- image 1 -->
                     <a href="<?=PATH_IMG?>bl1.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
-                        <img src="<?=PATH_IMG?>BeelEAT1.jpg" alt="beeleat1">
+                        <img src="<?=PATH_IMG?>bl1.jpg" alt="beeleat1">
                     </a>
                      <!-- image 1 -->
                     <a href="<?=PATH_IMG?>bl2.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
-                        <img src="<?=PATH_IMG?>BeelEAT2.jpg" alt="beeleat2">
+                        <img src="<?=PATH_IMG?>bl2.jpg" alt="beeleat2">
                     </a>
                     <!-- image 1 -->
                    <a href="<?=PATH_IMG?>bl3.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
-                       <img src="<?=PATH_IMG?>BeelEAT3.jpg" alt="beeleat3">
+                       <img src="<?=PATH_IMG?>bl3.jpg" alt="beeleat3">
                    </a>
                    <!-- image 1 -->
                   <a href="<?=PATH_IMG?>bl4.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
-                      <img src="<?=PATH_IMG?>BeelEAT4.jpg" alt="beeleat4">
+                      <img src="<?=PATH_IMG?>bl4.jpg" alt="beeleat4">
                   </a>
                 </div>
             </div>
