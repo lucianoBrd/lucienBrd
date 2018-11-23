@@ -10,7 +10,7 @@
         <div class="row">
             <div class="blog-single col-md-8 col-md-offset-2">
                 <div class="blog-image">
-                    <img src="<?=PATH_IMG?>BeelEAT.jpg" alt="beeleat">
+                    <img src="<?=PATH_IMG?>beeleat.jpg" alt="beeleat">
                 </div>
                 <h1>BeelEAT</h1>
                 <div class="blog-detail"><span>Projet tutoré IUT</span> - 2018 / 2019 </div>
@@ -36,23 +36,23 @@
                 <!-- Lightbox images -->
                 <div class="post-lightbox row">
                     <!-- image 1 -->
-                    <a href="<?=PATH_IMG?>BeelEAT.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
+                    <a href="<?=PATH_IMG?>beeleat.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
                         <img src="<?=PATH_IMG?>BeelEAT.jpg" alt="beeleat">
                     </a>
                      <!-- image 1 -->
-                    <a href="<?=PATH_IMG?>BeelEAT1.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
+                    <a href="<?=PATH_IMG?>beeleat1.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
                         <img src="<?=PATH_IMG?>BeelEAT1.jpg" alt="beeleat1">
                     </a>
                      <!-- image 1 -->
-                    <a href="<?=PATH_IMG?>BeelEAT2.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
+                    <a href="<?=PATH_IMG?>beeleat2.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
                         <img src="<?=PATH_IMG?>BeelEAT2.jpg" alt="beeleat2">
                     </a>
                     <!-- image 1 -->
-                   <a href="<?=PATH_IMG?>BeelEAT3.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
+                   <a href="<?=PATH_IMG?>beeleat3.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
                        <img src="<?=PATH_IMG?>BeelEAT3.jpg" alt="beeleat3">
                    </a>
                    <!-- image 1 -->
-                  <a href="<?=PATH_IMG?>BeelEAT4.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
+                  <a href="<?=PATH_IMG?>beeleat4.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
                       <img src="<?=PATH_IMG?>BeelEAT4.jpg" alt="beeleat4">
                   </a>
                 </div>
