@@ -113,7 +113,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                       <div class="row">
-                          <a href="beeleat.html" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
+                          <a href="?page=beeleat" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
                               <div class="blog-image">
                                   <img src="<?=PATH_IMG?>BeelEAT.jpg">
                               </div>
@@ -121,7 +121,7 @@
                               <p>Site pour la restauration.  </p>
                               <span class="blog-info"><span>Projet tutoré IUT</span> - 2018 / 2019 </span>
                           </a>
-                          <a href="single-blog.html" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.6s">
+                          <a href="https://emilie-nguyen.com/" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.6s">
                               <div class="blog-image">
                                   <img src="<?=PATH_IMG?>ngy.jpg">
                               </div>
@@ -129,7 +129,7 @@
                               <p>Site pour une photographe.  </p>
                               <span class="blog-info"><span>Freelance</span> - 2017 </span>
                           </a>
-                          <a href="single-blog.html" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.8s">
+                          <a href="https://diminuo.lucien-brd.com/" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.8s">
                               <div class="blog-image">
                                   <img src="<?=PATH_IMG?>diminuo.jpg">
                               </div>

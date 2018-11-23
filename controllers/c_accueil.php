@@ -8,7 +8,7 @@ if(isset($_POST['con_name']) && isset($_POST['con_email']) && isset($_POST['con_
   if($con_name != '' && $con_email != '' && $con_message != ''){
 
     $to = 'lucien.burdet@gmail.com';
-    $subject = 'Lucien Burdet - lucien-brd.com';
+    $subject = 'Lucien Burdet - '.$con_email;
 
     $message = '<strong>Nom : </strong>'.$con_name.'<br/><br/>';
 
