@@ -17,13 +17,14 @@
 
                 <div class="blog-content">
 
-                 <p>BeelEAT permet de gérer tout un restaurant. En effet, avec d'une part un côté administrateur/cuisine qui va permettre d'automatiser certaines taches comme la gestion des stocks, l'envoie de notification au client sur le statut de sa commande... De plus, cela permet aussi de :</p>
+                 <p>BeelEAT permet de gérer tout un restaurant. D'une part un côté administrateur/cuisine permet : </p>
                  <ul class="list-style">
-                     <li> Gérer les commandes.</li>
-                     <li> Gérer les menus, produits, ingredients...</li>
+                     <li> D'automatiser certaines tâches comme la gestion des stocks.</li>
+                     <li> De gérer les commandes via l'envoi automatique de notifications aux clients sur le statut de leur commande.</li>
+                     <li> De gérer les menus, produits, ingrédients...</li>
                  </ul>
                  <p>D'autre part, le côté client du site permet de passer des commandes en ligne.</p>
-                <blockquote>BeelEAT est pour l'instant utilisé par le bureau des élèves de l'IUT génie civil de notre université pour leur cafeteria. Ce site a su conquérir leur coeur grace à son interface simple et efficace et l'envoie de notification au client qui est un réel avantage.</blockquote>
+                <blockquote>BeelEAT est pour l'instant utilisé par le bureau des élèves de l'IUT génie civil de l'université Lyon 1 pour leur cafétéria. Ce site a su conquérir leur cœur grâce à son interface simple et efficace. De plus, l'envoi de notifications aux clients est un réel avantage.</blockquote>
 
 
 
@@ -54,6 +55,11 @@
                    <!-- image 1 -->
                   <a href="<?=PATH_IMG?>bl4.jpg" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
                       <img src="<?=PATH_IMG?>bl4.jpg" alt="beeleat4">
+                  </a>
+                  <!-- video 1 -->
+                  <a target="_blank" href="https://youtu.be/WCHk5rYsEsQ" class="popup-youtube col-md-4 col-sm-4 col-xs-6 lightbox-image">
+                      <i class="fa fa-play" aria-hidden="true"></i>
+                      <img src="<?=PATH_IMG?>bly.jpg" alt="beeleatVideo">
                   </a>
                 </div>
             </div>
