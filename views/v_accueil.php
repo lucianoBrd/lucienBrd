@@ -37,7 +37,7 @@
                     <!-- about image -->
                     <div class="col-md-4 col-sm-12 about-image top_30 wow fadeInUp"  data-wow-delay="0.4s">
                         <div class="row">
-                            <img src="<?=PATH_IMG?>about.jpg" alt="about">
+                            <img src="<?=PATH_IMG?>luciano.jpg" alt="about">
                         </div>
                     </div>
                     <!-- about text -->
