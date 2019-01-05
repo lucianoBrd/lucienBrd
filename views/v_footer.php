@@ -4,7 +4,7 @@
 						<a href="https://www.linkedin.com/in/lucien-burdet-b8b76a153">linkedIn </a>
 						<a href="https://github.com/lucianoBrd">git </a>
 				</div>
-				<p>Copyright © 2018 Lucien Burdet, All rights Reserved. <br/>
+				<p>Copyright © <?= date('Y') ?> Lucien Burdet, All rights Reserved. <br/>
 Lucien Burdet</p>
 		</div>
 </footer>
