@@ -57,7 +57,7 @@
                       <img src="<?=PATH_IMG?>bl4.jpg" alt="beeleat4">
                   </a>
                   <!-- video 1 -->
-                  <a target="_blank" href="https://youtu.be/WCHk5rYsEsQ" class="popup-youtube col-md-4 col-sm-4 col-xs-6 lightbox-image">
+                  <a target="_blank" href="https://youtu.be/i4Llz617ovY" class="popup-youtube col-md-4 col-sm-4 col-xs-6 lightbox-image">
                       <i class="fa fa-play" aria-hidden="true"></i>
                       <img src="<?=PATH_IMG?>bly.jpg" alt="beeleatVideo">
                   </a>
