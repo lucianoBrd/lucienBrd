@@ -12,6 +12,8 @@ if(isset($_POST['con_name']) && isset($_POST['con_email']) && isset($_POST['con_
 
     $message = '<strong>Nom : </strong>'.$con_name.'<br/><br/>';
 
+    $message .= '<strong>Email : </strong>'.$con_email.'<br/><br/>';
+
     $message .= $con_message.'<br/>';
 
     $header="MIME-Version: 1.0\r\n";
