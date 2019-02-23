@@ -158,7 +158,7 @@ if (isset($_SESSION['flash'])) {
                     <!-- Contact Info -->
                     <ul class="contact-info row">
                         <li>Lyon 69000</li>
-                        <li>luciano@lucien-brd.com</li>
+                        <li>contact@lucien-brd.com</li>
                     </ul>
                     <div class="social-icons top_60 row">
                         <a class="tw" href="https://www.linkedin.com/in/lucien-burdet-b8b76a153"><i class="fa fa-linkedin" aria-hidden="true"></i></a>

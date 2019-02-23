@@ -18,7 +18,7 @@ if(isset($_POST['con_name']) && isset($_POST['con_email']) && isset($_POST['con_
     $message .= $con_message.'<br/>';
 
     $header="MIME-Version: 1.0\r\n";
-  	$header.='From:"LucienBrd"<luciano@lucien-brd.com>'."\n";
+  	$header.='From:"LucienBrd"<no-reply@lucien-brd.com>'."\n";
   	$header.='Content-Type:text/html; charset="uft-8"'."\n";
   	$header.='Content-Transfer-Encoding: 8bit';
 
