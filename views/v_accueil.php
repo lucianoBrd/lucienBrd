@@ -63,42 +63,30 @@ if (isset($_SESSION['flash'])) {
                     <div class="owl-carousel work-areas top_120 bottom_120 wow fadeInUp" data-pagination="false" data-autoplay="3000" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="2" data-items-tablet-small="1"  data-wow-delay="0.4s">
                         <!-- an area -->
                         <div class="area col-md-12 item">
-                            <div class="icon">
-                                <i data-icon="&quot;" class="icon"></i>
-                            </div>
                             <div class="text">
-                                <h6>Ingénieux</h6>
-                                <p></p>
+                              <h6 class="blog-info"><span>Mohammed Ali</span></h6>
+                              <p>Qui n'a pas d'imagination n'a pas d'ailes.</p>
                             </div>
                         </div>
                         <!-- an area -->
                         <div class="area col-md-12 item">
-                            <div class="icon">
-                                <i data-icon="E" class="icon"></i>
-                            </div>
                             <div class="text">
-                                <h6>Organisé</h6>
-                                <p></p>
+                              <h6 class="blog-info"><span>Yuval Noah Harari</span> - Sapiens</h6>
+                              <p><?=CIT?></p>
                             </div>
                         </div>
                         <!-- an area -->
                         <div class="area col-md-12 item">
-                            <div class="icon">
-                                <i data-icon="N" class="icon"></i>
-                            </div>
                             <div class="text">
-                                <h6>Esprit curieux</h6>
-                                <p></p>
+                              <h6 class="blog-info"><span>Essan Nfc</span></h6>
+                              <p>Les difficultés et les souffrances sont parfois là, pour préparer des gens ordinaires à un avenir extraordinaire.</p>
                             </div>
                         </div>
                         <!-- an area -->
                         <div class="area col-md-12 item">
-                            <div class="icon">
-                                <i data-icon="P" class="icon"></i>
-                            </div>
                             <div class="text">
-                                <h6>Perfectionniste</h6>
-                                <p></p>
+                              <h6 class="blog-info"><span>PNL</span> - Sheita</h6>
+                              <p>Un jour j'suis tombé, pour apprendre à me relever.</p>
                             </div>
                         </div>
                     </div>
@@ -144,7 +132,7 @@ if (isset($_SESSION['flash'])) {
                               <p>Site pour raccourcir les URL.  </p>
                               <span class="blog-info"><span>Personnel</span> - 2018 </span>
                           </a>
-                          <a href="<?=PATH_DOC?>CV_BURDET_LUCIEN.pdf" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.10s">
+                          <a href="<?=PATH_DOC?>CV_BURDET_LUCIEN.pdf" download="CV_Burdet_Lucien" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.10s">
                               <div class="blog-image">
                                   <img src="<?=PATH_IMG?>cv.jpg">
                               </div>

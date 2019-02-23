@@ -1,3 +1,4 @@
 <?php
 define("DESCRIPTION", "Durant mes études, j’ai conçu, réalisé et mis au point en équipe un Dérailleur Automatique pour Vélo pour lequel j’ai également développé une application Android. J’ai présenté ce projet dans le cadre de plusieurs concours, notamment les Olympiades de Sciences de l’Ingénieur (Lyon et Paris) et CGenial (Paris).  Par ailleurs, j’ai réalisé à titre personnel des sites internet. Je suis passionné par l’Informatique, je me forme constamment avec des cours en ligne, dans les domaines de la sécurité, du développement…");
 define('INTRO', 'En préparation d\'un DUT Informatique à l\'IUT Lyon 1, je souhaite poursuivre mes études jusqu\'en bac+5 et me spécialiser dans le développement et la cybersécurité.');
+define('CIT', 'Les Romains de l\'Antiquité avaient l\'habitude de la defaite. Comme les souverains de la plupart des grands empires, ils pouvaient perdre bataille sur bataille, mais finalement gagner quand même la guerre.');
