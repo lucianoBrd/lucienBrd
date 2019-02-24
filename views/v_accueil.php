@@ -132,7 +132,7 @@ if (isset($_SESSION['flash'])) {
                               <p>Site pour raccourcir les URL.  </p>
                               <span class="blog-info"><span>Personnel</span> - 2018 </span>
                           </a>
-                          <a href="<?=PATH_DOC?>CV_BURDET_LUCIEN.pdf" download="CV_Burdet_Lucien" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.10s">
+                          <a href="?page=cv" class="single_item col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow hidden-sm fadeInUp" data-wow-delay="0.10s">
                               <div class="blog-image">
                                   <img src="<?=PATH_IMG?>cv.jpg">
                               </div>

@@ -2,7 +2,7 @@
     <div class="row">
         <div class="container">
             <div class="logo">
-                <img src="<?=PATH_IMG?>logo.png" alt="logo">
+                <a href="../"><img src="<?=PATH_IMG?>logo.png" alt="logo"></a>
             </div>
             <div class="responsive"><i data-icon="m" class="icon"></i></div>
             <ul class="nav-menu">
