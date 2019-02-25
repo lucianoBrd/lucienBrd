@@ -1,7 +1,6 @@
 <?php
 
 if(isset($_POST['con_name']) && isset($_POST['con_email']) && isset($_POST['con_message'])){
-  $_SESSION["flash"]=true;
   $con_name = $_POST['con_name'];
   $con_email = $_POST['con_email'];
   $con_message = $_POST['con_message'];

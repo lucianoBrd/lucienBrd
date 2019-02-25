@@ -4,6 +4,8 @@ $(window).load( function() {
 
 
     //PRELOADER
+    $('.blob-1').fadeOut();
+    $('.blob-2').fadeOut();
         /** Loader */
     var loader = $(".loader");
     var wHeight = $(window).height();
@@ -72,7 +74,8 @@ $(document).ready( function() {
     // WOW JS
     new WOW({ mobile: false }).init();
 
-
+    // ZOOM
+    $('.zoom').magnify();
 
     //PORTFOLIO WOW CANCEL
     $(".portfolio_filter li").click(function(){

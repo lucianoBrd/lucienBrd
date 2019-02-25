@@ -19,6 +19,8 @@ Lucien Burdet</p>
 <script src="<?=PATH_JS?>jquery.magnific-popup.min.js"></script>
 <script src="<?=PATH_JS?>owl.carousel.min.js"></script>
 <script src="<?=PATH_JS?>main.js"></script>
+<script src="<?=PATH_JS?>jquery.magnify.js"></script>
+<script src="<?=PATH_JS?>jquery.magnify-mobile.js"></script>
 
 
 

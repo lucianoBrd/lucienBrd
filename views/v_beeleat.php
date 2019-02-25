@@ -1,9 +1,6 @@
 
 <?php require_once(PATH_VIEWS.'header.php');?>
 
-<body class="diag">
-
-
     <?php require_once(PATH_VIEWS.'menu.php');?>
 
     <div class="container content">

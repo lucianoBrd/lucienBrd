@@ -1,16 +1,23 @@
-<nav class="<?=$page!='accueil'?'subpage-nav':''?>">
-    <div class="row">
-        <div class="container">
-            <div class="logo">
-                <a href="../"><img src="<?=PATH_IMG?>logo.png" alt="logo"></a>
-            </div>
-            <div class="responsive"><i data-icon="m" class="icon"></i></div>
-            <ul class="nav-menu">
-                <li><a href="<?=$page!='accueil'?'../#home':'#home'?>" class="smoothScroll">Accueil</a></li>
-                <li><a href="<?=$page!='accueil'?'../#about':'#about'?>" class="smoothScroll">A propos</a></li>
-                <li><a href="<?=$page!='accueil'?'../#portfolio':'#portfolio'?>" class="smoothScroll">Portfolio</a></li>
-                <li><a href="<?=$page!='accueil'?'../#contact':'#contact'?>" class="smoothScroll">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<body class="diag">
+  <!-- LOADER -->
+  <div class="loader-wrapper">
+      <div class = "blob-1"></div>
+      <div class = "blob-2"></div>
+      <div class="loader"></div>
+  </div>
+  <nav class="<?=$page!='accueil'?'subpage-nav':''?>">
+      <div class="row">
+          <div class="container">
+              <div class="logo">
+                  <a href="../"><img src="<?=PATH_IMG?>logo.png" alt="logo"></a>
+              </div>
+              <div class="responsive"><i data-icon="m" class="icon"></i></div>
+              <ul class="nav-menu">
+                  <li><a href="<?=$page!='accueil'?'../#home':'#home'?>" class="smoothScroll">Accueil</a></li>
+                  <li><a href="<?=$page!='accueil'?'../#about':'#about'?>" class="smoothScroll">A propos</a></li>
+                  <li><a href="<?=$page!='accueil'?'../#portfolio':'#portfolio'?>" class="smoothScroll">Portfolio</a></li>
+                  <li><a href="<?=$page!='accueil'?'../#contact':'#contact'?>" class="smoothScroll">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>

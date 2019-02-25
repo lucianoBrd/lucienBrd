@@ -1,20 +1,6 @@
 
 <?php require_once(PATH_VIEWS.'header.php');?>
 
-<body class="diag">
-
-<?php
-if (isset($_SESSION['flash'])) {
- unset($_SESSION['flash']);
-} else {
-?>
-<!-- LOADER -->
-<div class="loader-wrapper">
-    <div class="loader"></div>
-</div>
-<?php
-}
-?>
     <?php require_once(PATH_VIEWS.'menu.php');?>
 
         <!--HOME-->

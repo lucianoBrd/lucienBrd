@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="<?=PATH_CSS?>animate.css"/>
 <link rel="stylesheet" href="<?=PATH_CSS?>owl.carousel.css"/>
 <link rel="stylesheet" href="<?=PATH_CSS?>magnific-popup.css"/>
+<link rel="stylesheet" href="<?=PATH_CSS?>magnify.css">
 
 <!-- Google Web fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
