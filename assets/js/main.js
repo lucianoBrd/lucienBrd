@@ -3,9 +3,7 @@ $(window).load( function() {
 
 
 
-    //PRELOADER
-    $('.blob-1').fadeOut();
-    $('.blob-2').fadeOut();
+
         /** Loader */
     var loader = $(".loader");
     var wHeight = $(window).height();

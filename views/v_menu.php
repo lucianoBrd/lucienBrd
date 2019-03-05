@@ -1,8 +1,6 @@
 <body class="diag">
   <!-- LOADER -->
   <div class="loader-wrapper">
-      <div class = "blob-1"></div>
-      <div class = "blob-2"></div>
       <div class="loader"></div>
   </div>
   <nav class="<?=$page!='accueil'?'subpage-nav':''?>">
