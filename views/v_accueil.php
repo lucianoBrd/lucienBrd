@@ -49,30 +49,42 @@
                     <div class="owl-carousel work-areas top_120 bottom_120 wow fadeInUp" data-pagination="false" data-autoplay="3000" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="2" data-items-tablet-small="1"  data-wow-delay="0.4s">
                         <!-- an area -->
                         <div class="area col-md-12 item">
+                            <div class="icon">
+                                <i data-icon=":" class="icon"></i>
+                            </div>
                             <div class="text">
-                              <h6 class="blog-info"><span>Mohammed Ali</span></h6>
-                              <p>Qui n'a pas d'imagination n'a pas d'ailes.</p>
+                                <h6>Communication</h6>
+                                <p></p>
                             </div>
                         </div>
                         <!-- an area -->
                         <div class="area col-md-12 item">
+                            <div class="icon">
+                                <i data-icon="1" class="icon"></i>
+                            </div>
                             <div class="text">
-                              <h6 class="blog-info"><span>Yuval Noah Harari</span> - Sapiens</h6>
-                              <p><?=CIT?></p>
+                                <h6>Web</h6>
+                                <p></p>
                             </div>
                         </div>
                         <!-- an area -->
                         <div class="area col-md-12 item">
+                            <div class="icon">
+                                <i data-icon="!" class="icon"></i>
+                            </div>
                             <div class="text">
-                              <h6 class="blog-info"><span>Essan Nfc</span></h6>
-                              <p>Les difficultés et les souffrances sont parfois là, pour préparer des gens ordinaires à un avenir extraordinaire.</p>
+                                <h6>Publicité</h6>
+                                <p></p>
                             </div>
                         </div>
                         <!-- an area -->
                         <div class="area col-md-12 item">
+                            <div class="icon">
+                                <i data-icon="Z" class="icon"></i>
+                            </div>
                             <div class="text">
-                              <h6 class="blog-info"><span>PNL</span> - Sheita</h6>
-                              <p>Un jour j'suis tombé, pour apprendre à me relever.</p>
+                                <h6>Web Design - Logo</h6>
+                                <p></p>
                             </div>
                         </div>
                     </div>

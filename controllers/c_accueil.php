@@ -1,9 +1,9 @@
 <?php
 
 if(isset($_POST['con_name']) && isset($_POST['con_email']) && isset($_POST['con_message'])){
-  $con_name = $_POST['con_name'];
-  $con_email = $_POST['con_email'];
-  $con_message = $_POST['con_message'];
+  $con_name = htmlspecialchars($_POST['con_name']);
+  $con_email = htmlspecialchars($_POST['con_email']);
+  $con_message = htmlspecialchars($_POST['con_message']);
 
   if($con_name != '' && $con_email != '' && $con_message != ''){
 
