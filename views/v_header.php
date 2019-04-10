@@ -3,7 +3,7 @@
 <head>
 <title>Lucien Burdet</title>
 <meta charset="UTF-8">
-<meta name="description" content="Lucien Burdet. <?=INTRO.' '.DESCRIPTION?>">
+<meta name="description" content="Lucien Burdet. <?=INTRO?>">
 <meta name="keywords" content="lucien, burdet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

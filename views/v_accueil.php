@@ -41,7 +41,12 @@
                         </div>
                         <p><?=INTRO?>
                           <br></br>
-                          <?=DESCRIPTION?>
+                          <p>Etant passionné par l’informatique, j’ai lancé ma propre entreprise. Ma soif de connaissance m’a permis de développer mes compétences et de m’enrichir d’expérience.</p>
+                          <p>Les travaux que je peux effectuer sont des solutions pour le web : E-Commerce, site vitrine…</p>
+                          <p>Je peux vous établir gratuitement un devis sur simple demande. La satisfaction du client étant ma priorité, je mettrai tout en œuvre pour répondre à vos attentes et exigences.</p>
+                          <p>Je ne me contente pas de simplement développer votre projet : je vous propose une étude minutieuse et je peux vous apporter mon expertise pour couvrir tous vos besoins en termes de communication, publicité, référencement…</p>
+                          <p>Tout est possible, n’hésitez pas à me <a href="#contact">contacter</a> !</p>
+
                         </p>
                     </div>
 
@@ -54,7 +59,7 @@
                             </div>
                             <div class="text">
                                 <h6>Communication</h6>
-                                <p></p>
+                                <p>Vous ne savez pas comment bien utiliser les réseaux sociaux ? Je peux gérer vos comptes afin d’accroître votre notoriété.</p>
                             </div>
                         </div>
                         <!-- an area -->
@@ -64,7 +69,7 @@
                             </div>
                             <div class="text">
                                 <h6>Web</h6>
-                                <p></p>
+                                <p>Je peux développer tous types de site : E-commerce, site vitrine, blog… </p>
                             </div>
                         </div>
                         <!-- an area -->
@@ -74,7 +79,7 @@
                             </div>
                             <div class="text">
                                 <h6>Publicité</h6>
-                                <p></p>
+                                <p>Afin de d’augmenter votre présence sur internet il vous faut les meilleures publicités : image, bannière, vidéo…</p>
                             </div>
                         </div>
                         <!-- an area -->
@@ -84,7 +89,7 @@
                             </div>
                             <div class="text">
                                 <h6>Web Design - Logo</h6>
-                                <p></p>
+                                <p>Je respecte les derniers standards et normes de design afin de vous proposer un produit numérique beau et fonctionnel.</p>
                             </div>
                         </div>
                     </div>
