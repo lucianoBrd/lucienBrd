@@ -79,7 +79,7 @@
                             </div>
                             <div class="text">
                                 <h6>Publicité</h6>
-                                <p>Afin de d’augmenter votre présence sur internet il vous faut les meilleures publicités : image, bannière, vidéo…</p>
+                                <p>Afin de d’augmenter votre présence sur internet il vous faut les meilleures publicités : image, bannière, <a target="_blank" href="https://www.youtube.com/channel/UCw2GzeajMzGjIF1itAosvtw?view_as=subscriber">vidéo</a>…</p>
                             </div>
                         </div>
                         <!-- an area -->
