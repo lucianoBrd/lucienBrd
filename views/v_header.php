@@ -3,8 +3,8 @@
 <head>
 <title>Lucien Burdet</title>
 <meta charset="UTF-8">
-<meta name="description" content="Lucien Burdet. <?=INTRO?>">
-<meta name="keywords" content="lucien, burdet">
+<meta name="description" content="Lucien Burdet créateur de site internet pour les professionnels et particuliers.">
+<meta name="keywords" content="lucien, burdet, createur de site internet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="icon" type="image/png" href="<?=PATH_IMG?>logo.png" />
