@@ -7,7 +7,7 @@
         <section class="home" id="home">
                 <div class="home-content">
                     <div class="container">
-                        <h1>Lucien Burdet <span class="element" data-text1="Developpeur" data-text2="WebDesigner" data-loop="true" data-backdelay="3000"></span></h1>
+                        <h1>Lucien Burdet<br> <span class="element" data-text1="Créateur de site internet" data-text2="" data-loop="true" data-backdelay="3000"></span></h1>
                         <div class="social">
                             <a href="https://www.linkedin.com/in/lucien-burdet-b8b76a153"><i class="fa fa-linkedin" aria-hidden="true"></i>  </a>
                             <a href="https://github.com/lucianoBrd"><i class="fa fa-git" aria-hidden="true"></i>  </a>
